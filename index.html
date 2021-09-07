@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-food navbar-light navbar-fixed-top fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.svg" class="img-fluid" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav justify-content-start">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beverages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Chef</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ingerdient</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="btn btn-secondary py-2 px-4">My Kitchen</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Page Hero-->
+    <div class="page-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 order-md-2">
+                    <div class="hero-pic">
+                        <div class="video-play">
+                            <button class="video hero-cta "></button>
+                            <img src="images/pic.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 align-self-center order-md-1">
+                    <div class="hero-title">
+                        <h2>
+                            Eat What You Cook
+                            With Us, Together!
+                        </h2>
+                        <p>
+                            When you eat something that cooked by
+                            yourself, the happiness is priceless.
+                        </p>
+                        <a href="/" class="btn btn-primary py-2 px-4">Decide a Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Page Content-->
+    <div class="page-content">
+        <div class="container">
+            <div class="text-center mt-5">
+                <div class="page-text">
+                    <h4>
+                        Watch Now
+                    </h4>
+                    <h2>
+                        Special to Try
+                    </h2>
+                </div>
+                <ul class="nav nav-pills justify-content-center mt-4 mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Healthy Food</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Lunch</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Vege Desert</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Shake</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <div class="row">
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div href="#" class="card">
+                                    <a href="#" class="card-img">
+                                        <img src="images/food1.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="video-play">
+                                            <button class="video hero-cta"></button>
+                                        </div>
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                        <p class="card-text">Amir Samantha</p>
+                                        <div class="rating">
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">★</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div href="#" class="card">
+                                    <a href="#" class="card-img">
+                                        <img src="images/food2.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="video-play">
+                                            <button class="video hero-cta"></button>
+                                        </div>
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                        <p class="card-text">Amir Samantha</p>
+                                        <div class="rating">
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">★</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div href="#" class="card">
+                                    <a href="#" class="card-img">
+                                        <img src="images/food3.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="video-play">
+                                            <button class="video hero-cta"></button>
+                                        </div>
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                        <p class="card-text">Amir Samantha</p>
+                                        <div class="rating">
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">★</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div href="#" class="card">
+                                    <a href="#" class="card-img">
+                                        <img src="images/food4.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="video-play">
+                                            <button class="video hero-cta"></button>
+                                        </div>
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                        <p class="card-text">Amir Samantha</p>
+                                        <div class="rating">
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">★</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row">
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div href="#" class="card">
+                                    <a href="#" class="card-img">
+                                        <img src="images/food1.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="video-play">
+                                            <button class="video hero-cta"></button>
+                                        </div>
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                        <p class="card-text">Amir Samantha</p>
+                                        <div class="rating">
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">★</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div href="#" class="card">
+                                    <a href="#" class="card-img">
+                                        <img src="images/food2.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="video-play">
+                                            <button class="video hero-cta"></button>
+                                        </div>
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                        <p class="card-text">Amir Samantha</p>
+                                        <div class="rating">
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">★</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div href="#" class="card">
+                                    <a href="#" class="card-img">
+                                        <img src="images/food3.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="video-play">
+                                            <button class="video hero-cta"></button>
+                                        </div>
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                        <p class="card-text">Amir Samantha</p>
+                                        <div class="rating">
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">★</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div href="#" class="card">
+                                    <a href="#" class="card-img">
+                                        <img src="images/food4.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="video-play">
+                                            <button class="video hero-cta"></button>
+                                        </div>
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                        <p class="card-text">Amir Samantha</p>
+                                        <div class="rating">
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">☆</button>
+                                            <button class="rating_star">★</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="row">
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div href="#" class="card">
+                                <a href="#" class="card-img">
+                                    <img src="images/food1.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="video-play">
+                                        <button class="video hero-cta"></button>
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                    <p class="card-text">Amir Samantha</p>
+                                    <div class="rating">
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">★</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div href="#" class="card">
+                                <a href="#" class="card-img">
+                                    <img src="images/food2.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="video-play">
+                                        <button class="video hero-cta"></button>
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                    <p class="card-text">Amir Samantha</p>
+                                    <div class="rating">
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">★</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div href="#" class="card">
+                                <a href="#" class="card-img">
+                                    <img src="images/food3.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="video-play">
+                                        <button class="video hero-cta"></button>
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                    <p class="card-text">Amir Samantha</p>
+                                    <div class="rating">
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">★</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div href="#" class="card">
+                                <a href="#" class="card-img">
+                                    <img src="images/food4.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="video-play">
+                                        <button class="video hero-cta"></button>
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Salad Kiwi Sugga</h5>
+                                    <p class="card-text">Amir Samantha</p>
+                                    <div class="rating">
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">☆</button>
+                                        <button class="rating_star">★</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="section-testi">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/koma-testimoni.png" class="img-koma" alt="">
+                                <div class="comment-testi">
+                                    <h3>
+                                        Awalnya saya malu dengan mertua karena tidak bisa memasak, kini mereka lebih suka makan malam di rumah demi menyantap
+                                        masakan yang saya buat sendiri
+                                    </h3>
+                                    <div class="d-flex">
+                                        <div class="profile-testi mt-3">
+                                            <img src="/images/img-profile.svg" class="rounded-circle" alt="">
+                                            <div class="d-block">
+                                                <h3>
+                                                    Camella Sarah
+                                                </h3>
+                                                <p>
+                                                    Vege Master
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/koma-testimoni.png" class="img-koma" alt="">
+                                <div class="comment-testi">
+                                    <h3>
+                                      Saya jadi pandai memasak
+                                    </h3>
+                                    <div class="d-flex">
+                                        <div class="profile-testi mt-3">
+                                            <img src="/images/img-profile.svg" class="rounded-circle" alt="">
+                                            <div class="d-block">
+                                                <h3>
+                                                   Nabila Apriyani
+                                                </h3>
+                                                <p>
+                                                    Junior
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-static">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <div class="d-block">
+                                <h3>
+                                    <b>180.000+</b>
+                                </h3>
+                                <p>
+                                MENU FOOD
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <div class="d-block">
+                                <h3>
+                                    <b>20.000+</b>
+                                </h3>
+                                <p>
+                                    CHEFS
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <div class="d-block">
+                                <h3>
+                                    <b>400.000+</b>
+                                </h3>
+                                <p>
+                                    COURSE
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <div class="d-block">
+                                <h3>
+                                    <b>6.900.000</b>
+                                </h3>
+                                <p>
+                                    ALUMNI
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-donwloadapp mt-5">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 order-md-1">
+                            <div class="donwload-app">
+                                <img src="images/app.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 align-self-center order-md-2">
+                            <div class="downloadapp-title">
+                                <h2>
+                                Download our app
+                                and join the contest
+                                </h2>
+                                <p>
+                                In order to improve our cooking skills,
+                                we do need a food photography
+                                </p>
+                                <div class="d-flex">
+                                    <a href="#" class="logo-app">
+                                        <img src="images/appstore.png" alt="" class="img-fluid">
+                                    </a>
+                                    <a href="#" class="logo-app">
+                                        <img src="images/googleplay.png" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-3 align-self-center">
+                        <a href="#" class="navbar-brand">
+                            <img src="images/logo.svg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="d-block footer-info">     
+                            <h3>Spesial Course</h3>               
+                            <ul class="nav flex-column">                         
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Wedding Foods</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Healthy and Muscle</a>
+                                </li>                           
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Office Food Daily</a>
+                                </li>                           
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Happy Kids</a>
+                                </li>                           
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="d-block footer-info">
+                            <h3>Company</h3>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">APIs Developer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Terms & Conditions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Privacy Policy</a>
+                                </li>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="d-block footer-info">
+                            <h3>Be Our Friend</h3>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">3, Season Park, Jakarta</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">support@foodyar.co,id</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">021 - 1111 - 2222</a>
+                                </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-center footer-bottom py-3">
+                <h3>
+                    All Rights Reserved Foodyar by Pixel from BuildWith Angga 2020
+                </h3>
+            </div>
+        </div>
+    </footer>
+
+    
+    <!--Script-->
+    <script src="/script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
