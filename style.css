@@ -45,6 +45,7 @@
   position: relative;
 }
 .video-play:hover img {
+  cursor: pointer;
   opacity: 0.6;
 }
 .video-play .video {
@@ -58,7 +59,7 @@
   align-items: center;
   justify-content: center;
   background: transparent;
-  background-image: url("/images/btn-play.svg");
+  background-image: url("images/btn-play.svg");
   border-radius: 50%;
 }
 .video-play:hover .video {
