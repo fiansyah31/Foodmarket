@@ -48,6 +48,7 @@
   cursor: pointer;
   opacity: 0.6;
 }
+/*
 .video-play .video {
   cursor: pointer;
   left: 40%;
@@ -59,9 +60,9 @@
   align-items: center;
   justify-content: center;
   background: transparent;
-  background-image: url("images/btn-play.svg");
   border-radius: 50%;
 }
+
 .video-play:hover .video {
   cursor: pointer;
   border: none;
@@ -70,7 +71,7 @@
   border-radius: 50%;
   opacity: 1;
 }
-
+*/
 .page-hero .hero-title h2 {
   font-weight: bold;
   font-size: 46px;
