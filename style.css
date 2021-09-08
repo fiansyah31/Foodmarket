@@ -33,7 +33,10 @@
   color: #272042;
   border: 0px;
   background: #fbe0dc;
-  border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .btn-secondary:hover {
   background-color: #e7c1bb;
@@ -96,6 +99,10 @@
   color: #272042;
   background: #f7c531;
   border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .btn-primary:hover {
   background-color: #e0b329;
