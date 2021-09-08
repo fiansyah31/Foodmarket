@@ -20,7 +20,7 @@
 .navbar-food .navbar-brand {
   width: 130px;
 }
-.navbar-fixed-top.scrolled {
+.navbar-fixed-top .scrolled {
   background-color: #f1f1f1 !important;
   transition: background-color 200ms linear;
 }
