@@ -223,6 +223,9 @@
 .profile-testi {
   margin: 0 auto;
 }
+.profile-testi img {
+  width: 80px;
+}
 .profile-testi h3 {
   font-weight: 500;
   font-size: 18px;
