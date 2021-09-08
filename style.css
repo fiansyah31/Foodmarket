@@ -35,10 +35,13 @@
   background: #fbe0dc;
   border-radius: 30px;
 }
+.btn-secondary:hover {
+  background-color: #e7c1bb;
+}
 
 /*page hero*/
 .page-hero {
-  margin-top: 150px;
+  margin-top: 110px;
 }
 .hero-pic {
   width: 100%;
@@ -46,9 +49,8 @@
 }
 .video-play:hover img {
   cursor: pointer;
-  opacity: 0.6;
 }
-/*
+
 .video-play .video {
   cursor: pointer;
   left: 40%;
@@ -61,6 +63,7 @@
   justify-content: center;
   background: transparent;
   border-radius: 50%;
+  background: url(images/btn-play.svg);
 }
 
 .video-play:hover .video {
@@ -69,9 +72,9 @@
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  opacity: 1;
+  opacity: 0.6;
 }
-*/
+
 .page-hero .hero-title h2 {
   font-weight: bold;
   font-size: 46px;
@@ -93,6 +96,9 @@
   color: #272042;
   background: #f7c531;
   border-radius: 30px;
+}
+.btn-primary:hover {
+  background-color: #e0b329;
 }
 
 /*Page content*/
@@ -135,6 +141,7 @@
 }
 .page-content .tab-content .card {
   border: 0px;
+  margin-bottom: 10px;
 }
 .page-content .tab-content .card .card-img {
   text-decoration: none;
@@ -189,7 +196,6 @@
   margin: 0 2px;
   padding: 0;
   color: #f7c531;
-
   /* Used to position the hover state */
   position: relative;
 }
@@ -297,6 +303,9 @@
   padding-bottom: 50px;
   margin-top: 120px;
 }
+.footer-info {
+  margin-bottom: 5px;
+}
 .footer-info h3 {
   font-weight: 500;
   font-size: 20px;
@@ -309,7 +318,6 @@
   font-size: 14px;
   line-height: 22px;
   color: #8b8ba5;
-  margin-bottom: 10px;
 }
 .footer-bottom h3 {
   font-weight: normal;
@@ -349,7 +357,36 @@
 }
 @media (max-width: 430px) {
   .card-img .video-play {
-    top: 8%;
+    top: 18%;
+    left: 24%;
+  }
+  .rating_star {
+    /* Reset styles for button */
+    font-size: 25px;
+  }
+  .comment-testi h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #272042;
+  }
+  .section-donwloadapp h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .section-donwloadapp p {
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    color: #8b8ba5;
+  }
+}
+@media (max-width: 360px) {
+  .card-img .video-play {
+    top: 14%;
     left: 20%;
   }
 }

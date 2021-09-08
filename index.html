@@ -10,12 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-food navbar-light navbar-fixed-top fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-food navbar-light navbar-fixed-top" data-aos="fade-down">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="images/logo.svg" class="img-fluid" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -53,15 +55,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 order-md-2">
-                    <div class="hero-pic">
+                    <div class="hero-pic animate__animated animate__bounce">
                         <div class="video-play">
-                            
+                            <button class="video hero-cta"></button>
                             <img src="images/pic.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 align-self-center order-md-1">
-                    <div class="hero-title">
+                    <div class="hero-title animate__animated animate__rubberBand">
                         <h2>
                             Eat What You Cook
                             With Us, Together!
@@ -89,7 +91,7 @@
                         Special to Try
                     </h2>
                 </div>
-                <ul class="nav nav-pills justify-content-center mt-4 mb-3" id="pills-tab" role="tablist">
+                <ul class="nav nav-pills justify-content-center mt-4 mb-3 animate__animated animate__backInUp" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
@@ -111,15 +113,16 @@
                             aria-selected="false">Shake</button>
                     </li>
                 </ul>
-                <div class="tab-content" id="pills-tabContent">
+                <div class="tab-content animate__animated animate__backInUp" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                         aria-labelledby="pills-home-tab">
                         <div class="row">
                             <div class="col-6 col-md-4 col-lg-3">
-                                <div href="#" class="card">
+                                <div href="#" class="card animate__animated animate__swing">
                                     <a href="#" class="card-img">
                                         <img src="images/food1.png" class="card-img-top img-fluid" alt="...">
-                                        <div class="video-play">                                            
+                                        <div class="video-play">
+                                            <button class="video hero-cta"></button>
                                         </div>
                                     </a>
                                     <div class="card-body">
@@ -136,11 +139,11 @@
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3">
-                                <div href="#" class="card">
+                                <div href="#" class="card animate__animated animate__swing">
                                     <a href="#" class="card-img">
                                         <img src="images/food2.png" class="card-img-top img-fluid" alt="...">
                                         <div class="video-play">
-                                          
+                                        <button class="video hero-cta"></button>
                                         </div>
                                     </a>
                                     <div class="card-body">
@@ -157,11 +160,11 @@
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3">
-                                <div href="#" class="card">
+                                <div href="#" class="card animate__animated animate__swing">
                                     <a href="#" class="card-img">
                                         <img src="images/food3.png" class="card-img-top img-fluid" alt="...">
                                         <div class="video-play">
-                                           
+                                            <button class="video hero-cta"></button>
                                         </div>
                                     </a>
                                     <div class="card-body">
@@ -178,11 +181,11 @@
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3">
-                                <div href="#" class="card">
+                                <div href="#" class="card animate__animated animate__swing">
                                     <a href="#" class="card-img">
                                         <img src="images/food4.png" class="card-img-top img-fluid" alt="...">
                                         <div class="video-play">
-                                           
+                                            <button class="video hero-cta"></button>
                                         </div>
                                     </a>
                                     <div class="card-body">
@@ -203,11 +206,11 @@
                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                         <div class="row">
                             <div class="col-6 col-md-4 col-lg-3">
-                                <div href="#" class="card">
+                                <div href="#" class="card animate__animated animate__swing">
                                     <a href="#" class="card-img">
                                         <img src="images/food1.png" class="card-img-top img-fluid" alt="...">
                                         <div class="video-play">
-                                          
+                                        <button class="video hero-cta"></button>
                                         </div>
                                     </a>
                                     <div class="card-body">
@@ -224,11 +227,11 @@
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3">
-                                <div href="#" class="card">
+                                <div href="#" class="card animate__animated animate__swing">
                                     <a href="#" class="card-img">
                                         <img src="images/food2.png" class="card-img-top img-fluid" alt="...">
                                         <div class="video-play">
-                                        
+                                        <button class="video hero-cta"></button>
                                         </div>
                                     </a>
                                     <div class="card-body">
@@ -245,11 +248,11 @@
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3">
-                                <div href="#" class="card">
+                                <div href="#" class="card animate__animated animate__swing">
                                     <a href="#" class="card-img">
                                         <img src="images/food3.png" class="card-img-top img-fluid" alt="...">
                                         <div class="video-play">
-                                         
+                                        <button class="video hero-cta"></button>
                                         </div>
                                     </a>
                                     <div class="card-body">
@@ -266,11 +269,11 @@
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3">
-                                <div href="#" class="card">
+                                <div href="#" class="card animate__animated animate__swing">
                                     <a href="#" class="card-img">
                                         <img src="images/food4.png" class="card-img-top img-fluid" alt="...">
                                         <div class="video-play">
-                                          
+                                        <button class="video hero-cta"></button>
                                         </div>
                                     </a>
                                     <div class="card-body">
@@ -291,11 +294,11 @@
                     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                     <div class="row">
                         <div class="col-6 col-md-4 col-lg-3">
-                            <div href="#" class="card">
+                            <div href="#" class="card animate__animated animate__swing">
                                 <a href="#" class="card-img">
                                     <img src="images/food1.png" class="card-img-top img-fluid" alt="...">
                                     <div class="video-play">
-                                       
+                                        <button class="video hero-cta"></button>
                                     </div>
                                 </a>
                                 <div class="card-body">
@@ -312,11 +315,11 @@
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-3">
-                            <div href="#" class="card">
+                            <div href="#" class="card animate__animated animate__swing">
                                 <a href="#" class="card-img">
                                     <img src="images/food2.png" class="card-img-top img-fluid" alt="...">
                                     <div class="video-play">
-                                       
+                                        <button class="video hero-cta"></button>
                                     </div>
                                 </a>
                                 <div class="card-body">
@@ -333,11 +336,11 @@
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-3">
-                            <div href="#" class="card">
+                            <div href="#" class="card animate__animated animate__swing">
                                 <a href="#" class="card-img">
                                     <img src="images/food3.png" class="card-img-top img-fluid" alt="...">
                                     <div class="video-play">
-                                       
+                                        <button class="video hero-cta"></button>
                                     </div>
                                 </a>
                                 <div class="card-body">
@@ -354,11 +357,11 @@
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-3">
-                            <div href="#" class="card">
+                            <div href="#" class="card animate__animated animate__swing">
                                 <a href="#" class="card-img">
                                     <img src="images/food4.png" class="card-img-top img-fluid" alt="...">
                                     <div class="video-play">
-                                       
+                                        <button class="video hero-cta"></button>
                                     </div>
                                 </a>
                                 <div class="card-body">
@@ -379,7 +382,7 @@
                 </div>
                 <div class="section-testi">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" data-aos="fade-up">
                             <div class="carousel-item active">
                                 <img src="images/koma-testimoni.png" class="img-koma" alt="">
                                 <div class="comment-testi">
@@ -426,7 +429,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="section-static">
+                <div class="section-static" data-aos="zoom-in">
                     <div class="row">
                         <div class="col-12 col-md-4 col-lg-3">
                             <div class="d-block">
@@ -470,7 +473,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="section-donwloadapp mt-5">
+                <div class="section-donwloadapp mt-5" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-6 order-md-1">
                             <div class="donwload-app">
@@ -577,11 +581,15 @@
 
     
     <!--Script-->
-    <script src="/script/script.js"></script>
+    <script src="script/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
