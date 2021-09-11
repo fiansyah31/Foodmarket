@@ -416,4 +416,9 @@
     top: 14%;
     left: 20%;
   }
+  .section-donwloadapp .logo-app img {
+    width: 100px;
+    height: 30px;
+  
+  }
 }
