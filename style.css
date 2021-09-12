@@ -412,6 +412,26 @@ color: #929292;
   position: absolute;
   text-align: center;
 }
+
+/*Page Detail*/
+.rating-student .all-student {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #272042;
+  margin-top: 3px;
+  margin-left: 4px;
+}
+.detail-video .video-play {
+  margin-top: 50px;
+  position: relative;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.detail-video .video-play img {
+  width: 100%;
+}
 @media (max-width: 991px) {
   .navbar-food .navbar-nav {
     border-radius: 10px;
