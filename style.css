@@ -432,6 +432,128 @@ color: #929292;
 .detail-video .video-play img {
   width: 100%;
 }
+
+/*Description video*/
+.description-video {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+.description-video h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #272042;
+}
+.description-video p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #272042;
+}
+
+.detail-video-price {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+.detail-video-price h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #272042;
+}
+.detail-video-price .price-video {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px; 
+  color: #272042;
+}
+.detail-video-price p small {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8B8BA5;
+}
+
+/*Ingridient video */
+.ingridient-video {
+  margin-top: 30px;
+}
+.ingridient-video h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #272042;
+}
+.ingridient-video .nav-item small {
+  margin-left: 16px;
+}
+.ingridient-video .nav-item {
+  margin-bottom: 10px;
+}
+.ingridient-video .nav-item .nav-link {
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #272042;
+}
+/*sylabus */
+.sylabus-video {
+  margin-top: 30px;
+}
+.sylabus-video h2{
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #272042;
+}
+.accordion-item {
+  width: 500px;
+  border: 0px;
+}
+.accordion-item .accordion-header {
+  width: 500px;
+}
+.accordion .accordion-header button {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 40px;
+  border: 1px solid #F0F0F0; 
+  border-radius: 10px !important;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px; 
+  color: #272042;
+}
+.accordion-body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.accordion-play {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px; 
+  color: #272042;
+  background: transparent;
+  border: 1px solid #F0F0F0; 
+  width: 480px;
+  height: 40px;
+  text-align: left;
+  position: relative;
+  border-radius: 10px !important;
+  padding-left:15px ;
+}
+.accordion-play i {
+  align-items: center;
+  position: absolute;
+  left: auto;
+  top: 25%;
+  bottom: 0;
+  right: 4%;
+  color: #272042;
+  font-size: 20px;
+}
 @media (max-width: 991px) {
   .navbar-food .navbar-nav {
     border-radius: 10px;
