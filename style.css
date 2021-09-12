@@ -163,22 +163,22 @@
   text-align: center;
   color: #272042;
 }
-.page-content .tab-content {
+.page-content {
   margin-bottom: 15px;
 }
-.page-content .tab-content .card {
+.page-content .card {
   border: 0px;
   margin-bottom: 10px;
 }
-.page-content .tab-content .card .card-img {
+.page-content .card .card-img {
   text-decoration: none;
 }
-.page-content .tab-content .card-img img {
+.page-content .card-img img {
   opacity: 1;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
-.page-content .tab-content .card-img:hover img {
+.page-content .card-img:hover img {
   opacity: 0.2;
 }
 .card-img .video-play {
@@ -192,14 +192,14 @@
 .card-img:hover .video-play {
   opacity: 1;
 }
-.page-content .tab-content .card-body .card-title {
+.page-content .card-body .card-title {
   font-weight: 500;
   font-size: 22px;
   line-height: 27px;
   text-align: center;
   color: #272042;
 }
-.page-content .tab-content .card-body .card-text {
+.page-content .card-body .card-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
@@ -209,12 +209,12 @@
 /*rating*/
 .rating {
   /* Center the content */
-  margin-top: -20px;
+  margin-top: -15px;
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
-  font-size: 32px;
+  font-size: 25px;
 }
 .rating_star {
   /* Reset styles for button */
@@ -355,6 +355,62 @@
 }
 .footer-info .nav-link:hover {
   color: #f7c531;
+}
+
+
+/*Beverages*/
+.search-beverages {
+ width: 400px;
+ margin: 0 auto;
+}
+.search-beverages input {
+  margin-top: 15px;
+  border-radius: 10px;
+  border:1px solid #ebebeb;
+}
+.search-beverages button {
+  background:transparent;
+  border: 0px;
+  margin-left: -35px;
+  margin-top: 15px;
+}
+.search-beverages button i {
+color: #929292;
+}
+.section-category-beverages {
+  margin-top: 80px;
+}
+.section-category-beverages .card {
+  margin: 0 auto;
+  width: 10rem;
+}
+.section-category-beverages .card .card-body .card-title {
+  font-size: 20px;
+}
+/*pagination beverages */
+.section-category-beverages .pagination .page-link {
+  border: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background:transparent;
+  color: #808080;
+}
+.section-category-beverages .pagination .active {
+  color: #272042;
+  border: 0px;
+  background: #fbe0dc;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card-img .video-play {
+  top: 14%;
+  left: 22%;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
 }
 @media (max-width: 991px) {
   .navbar-food .navbar-nav {
