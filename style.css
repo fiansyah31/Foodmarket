@@ -680,19 +680,19 @@ margin-top: 30px;
 .page-profile-about .instructor-comment .card .col-md-2 {
   width: 5rem;
 }
-.comment-instructor .text-comment-instructor {
+.page-profile-about .comment-instructor .text-comment-instructor {
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
   color: #272042;
 }
-.comment-instructor {
+.page-profile-about .comment-instructor {
   margin-top: -10px;
 }
-.comment-instructor .comment-rating {
+.page-profile-about .comment-instructor .comment-rating {
   margin-top: 15px;
 }
-.comment-instructor .comment-rating .rating {
+.page-profile-about .comment-instructor .comment-rating .rating {
   justify-content: left;
 }
 /*about aprofile */
@@ -757,6 +757,9 @@ margin-top: 30px;
   .page-profile-about .instructor-comment .card .col-md-2 {
     width: 16.66666667%;
   }
+  .search-beverages {
+    width: 100%;
+   }
 }
 @media (max-width: 430px) {
   .card-img .video-play {
@@ -825,5 +828,26 @@ margin-top: 30px;
     width: 100px;
     height: 30px;
   
+  }
+  .section-category-beverages .card {
+    width: 100%;
+  }
+  .section-category-beverages .card .card-body .card-title {
+    font-size: 16px;
+  }
+  .page-profile-about .card .card-img {
+    width: 100%;
+  }
+  .page-profile-about .card .card-body h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #272042;
+  }
+  .page-profile-about .card .card-body p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8B8BA5; 
   }
 }
