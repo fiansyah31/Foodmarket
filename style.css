@@ -404,7 +404,7 @@ color: #929292;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.card-img .video-play {
+.section-category-beverages .card .card-img .video-play {
   top: 14%;
   left: 22%;
   transition: 0.5s ease;
@@ -617,6 +617,102 @@ margin-top: 30px;
 .comment-instructor .comment-rating .rating {
   justify-content: left;
 }
+
+
+
+/* Page profle */
+.page-profile .card {
+  margin: 10px auto 0px auto;
+}
+.page-profile .card img {
+  width: 100px;
+  align-self: center;
+}
+.page-profile .card .card-body h5 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: center;
+  color: #272042;
+}
+.page-profile .card .card-body p {
+  font-weight: normal;
+  margin-top: -10px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #8B8BA5;
+}
+
+/*page profile about*/
+.page-profile-about .card {
+  margin-top: 20px;
+}
+.page-profile-about .card .card-img {
+  width: 10rem;
+  align-self: center;
+}
+
+/*page  profile about comment review */
+.page-profile-about .instructor-comment {
+  margin-bottom: 20px;
+}
+.page-profile-about .instructor-comment .card img {
+  width: 80px;
+}
+.page-profile-about .instructor-comment .card .card-body h5 , .page-profile-about .instructor-comment .card .card-body p , .page-profile-about .instructor-comment .card .card-body .card-star {
+  text-align: left;
+
+}
+.page-profile-about .instructor-comment .card .card-body h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272042;
+}
+.page-profile-about .instructor-comment .card .card-body p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8B8BA5; 
+}
+
+.page-profile-about .instructor-comment .card .col-md-2 {
+  width: 5rem;
+}
+.comment-instructor .text-comment-instructor {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #272042;
+}
+.comment-instructor {
+  margin-top: -10px;
+}
+.comment-instructor .comment-rating {
+  margin-top: 15px;
+}
+.comment-instructor .comment-rating .rating {
+  justify-content: left;
+}
+/*about aprofile */
+.about-profile .about-profile-rating .rating {
+  justify-content: left;
+}
+.about-profile .text-about {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #272042;
+}
+.about-profile p {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #272042;
+}
+
 @media (max-width: 991px) {
   .navbar-food .navbar-nav {
     border-radius: 10px;
@@ -658,6 +754,9 @@ margin-top: 30px;
   .page-instructor .card .col-md-2 {
     width: 16.66666667%;
   }
+  .page-profile-about .instructor-comment .card .col-md-2 {
+    width: 16.66666667%;
+  }
 }
 @media (max-width: 430px) {
   .card-img .video-play {
@@ -693,7 +792,16 @@ margin-top: 30px;
     line-height: 22px;
     color: #272042;
   }
+  .page-profile-about .instructor-comment .card .card-body h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #272042;
+  }
   .page-instructor .card img {
+    width: 60px;
+  }
+  .page-profile-about .instructor-comment .card img {
     width: 60px;
   }
 
